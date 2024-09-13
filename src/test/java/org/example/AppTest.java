@@ -17,4 +17,8 @@ public class AppTest
         assertEquals(12, app.addMe(11,1));
     }
 
+    @Test
+ public void subMeTest(){
+        assertEquals(10, app.subMe(11,1));
+    }
 }
